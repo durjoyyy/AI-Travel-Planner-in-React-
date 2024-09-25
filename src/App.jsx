@@ -1,12 +1,13 @@
+/* eslint-disable no-unused-vars */
 import './App.css'
+import Hero from './components/custom/Hero'
 import { Button } from './components/ui/button'
 
 function App() {
 
   return (
     <>
-    <div>Hi</div>
-    <Button>Fuck me</Button>
+    <Hero/>
     </>
   )
 }
